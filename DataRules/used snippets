@@ -1,0 +1,32 @@
+/*else if(m ==2){
+				getValCount = UserLevels.get(m-1);
+				int recordsSize  =  getValCount.size();
+				int t=1;
+			 for (int k=1; k<=recordsSize; k++){
+				 int j=k+1;
+//				 /while ()
+				 while( j <= recordsSize) {
+					 //for()
+					 String sdata = "";
+					 sdata = userRecords.get(k) + ":" + userRecords.get(j);
+						j++;
+						setValCount.put(t, sdata);
+						t++;
+						 //System.out.println(sdata);
+					}	
+				
+			 }
+			 UserLevels.put(m,setValCount);
+			 
+			}*/
+			
+			
+			
+			1=[B,C];
+2=[B,C,D];
+3=[A,D];
+4=[A,B,C,D];
+5=[C,D];
+6=[C,D,E];
+7=[A,B];
+			

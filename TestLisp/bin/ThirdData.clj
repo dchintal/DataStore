@@ -1,0 +1,25 @@
+(ns ThirdData)
+(def data 2)
+(defn dataIterate "samp data" [] (
+    (def hashdatas {'bob 'mary,'jane 'mary,'mary 'peter,'paul 'peter,'peter 'john })
+  (doseq [[k v] (map vector (keys hashdatas) (vals hashdatas))]
+    ;(println "key" k " val" v)
+     (def data 2) 
+     ;  (println "looping")
+       (def a k)
+     ;(while (> data 1)     
+      (doseq [[t u] (map vector (keys hashdatas) (vals hashdatas))]
+       ; (println u "comp val " a)
+      (if (= u a)
+               (def getParent t)(def getParent 1))
+      ;(println "+++" getParent)
+        (if (not(= 1 getParent))
+          (println getParent "is ++ ansector of" v (def data 2)                                  
+             ;(println getParent "is ++ ansector of" a data (def a getParent))
+           )(def data 1))
+       ) 
+      ;)
+     (println k "is ansector of" v)
+     
+      )   
+  ) )
